@@ -1,10 +1,10 @@
 # Event Management Platform
 
-The Event Management Platform is a web application that allows an event-organizing company to manage their events. This platform provides APIs to add, update, delete, retrieve, and list events. It is implemented using Node.js and TypeScript, and the API is deployed on Vercel at https://event-management-platform-theta.vercel.app/.
+The Event Management Platform is a web application that allows an event-organizing company to manage its events. This platform provides APIs to add, update, delete, retrieve, and list events. It is implemented using Node.js and TypeScript, and the API is deployed on Vercel at https://event-management-platform-theta.vercel.app/.
 
 ## Approach
 
-The Event Management Platform is designed to handle basic event management operations. The platform utilizes a Node.js backend with TypeScript for strong type checking and enhanced developer experience. The data structure used to represent events is a TypeScript interface called `Event`, which includes properties like `id`, `eventName`, `eventDate`, `organizer`, `email`, `phone`, `location`, `createdAt`, and `updatedAt`. The `id` property serves as a unique identifier for each event, ensuring efficient retrieval and manipulation of event data.
+The Event Management Platform is designed to handle basic event management operations. The platform utilizes a Node.js backend with TypeScript for strong type-checking and enhanced developer experience. The data structure used to represent events is a TypeScript interface called `Event`, which includes properties like `id`, `eventName`, `eventDate`, `organizer`, `email`, `phone`, `location`, `createdAt`, and `updatedAt`. The `id` property serves as a unique identifier for each event, ensuring efficient retrieval and manipulation of event data.
 
 ## Data Structure
 
@@ -35,9 +35,8 @@ To run the Event Management Platform locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/event-management-platform.git
+   git clone https://github.com/nikitashaw13/event-management-platform.git
    ```
-   Replace `your-username` with your GitHub username.
 
 2. Navigate to the project directory:
    ```bash
