@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express = require('express');
+const eventController = require("../controllers/eventController");
+const router = express.Router();
+router.post('/events', eventController.addEvent);
+router.put('/events/:id', eventController.updateEvent);
+router.delete('/events/:id', eventController.deleteEvent);
+router.get('/events/:id', eventController.getEventById);
+router.get('/events', eventController.listEvents);
+exports.default = router;
